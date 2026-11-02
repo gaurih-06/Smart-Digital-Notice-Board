@@ -6,7 +6,7 @@ body {
   color: #f0e8e8;
   min-height: 100vh;
 }
-
+ 
 /* ── NAVBAR ── */
 .navbar {
   background: linear-gradient(135deg, #2A1114 0%, #060203 100%);
@@ -62,14 +62,14 @@ body {
   opacity: 0.88;
   background: linear-gradient(135deg, #963E48, #722F37) !important;
 }
-
+ 
 /* ── CONTAINER ── */
 .container {
   max-width: 860px;
   margin: 32px auto;
   padding: 0 24px;
 }
-
+ 
 /* ── PAGE TITLE ── */
 .page-title {
   font-size: 22px;
@@ -79,7 +79,7 @@ body {
   padding-bottom: 14px;
   border-bottom: 1px solid #2A1114;
 }
-
+ 
 /* ── LOGIN PAGE ── */
 body.login-page {
   background: linear-gradient(135deg, #060203 0%, #2A1114 50%, #060203 100%);
@@ -147,7 +147,7 @@ body.login-page {
 }
 .login-box button:hover { opacity: 0.92; transform: translateY(-1px); }
 .login-box button:active { transform: translateY(0); }
-
+ 
 /* ── NOTICE CARDS ── */
 .notice-card {
   background: #2A1114;
@@ -172,12 +172,12 @@ body.login-page {
 .notice-card.priority-urgent { border-left-color: #C6747E; }
 .notice-card.priority-normal { border-left-color: #963E48; }
 .notice-card.priority-low    { border-left-color: #722F37; }
-
+ 
 .notice-header {
   display: flex; gap: 8px;
   margin-bottom: 10px; align-items: center;
 }
-
+ 
 /* ── PRIORITY BADGES ── */
 .priority-badge {
   font-size: 10px; font-weight: 800;
@@ -199,7 +199,7 @@ body.login-page {
   color: #963E48;
   border: 1px solid rgba(114,47,55,0.35);
 }
-
+ 
 /* Standalone badges in tables */
 span.priority-badge.priority-urgent {
   background: rgba(198,116,126,0.15);
@@ -216,7 +216,7 @@ span.priority-badge.priority-low {
   color: #963E48;
   border: 1px solid rgba(114,47,55,0.35);
 }
-
+ 
 .dept-tag {
   font-size: 11px; padding: 3px 10px;
   border-radius: 20px;
@@ -252,7 +252,7 @@ span.priority-badge.priority-low {
   color: #C6747E; font-size: 13px; font-weight: 600;
   display: flex; align-items: center; gap: 4px;
 }
-
+ 
 /* ── EMPTY STATE ── */
 .empty-state {
   text-align: center; padding: 60px 20px;
@@ -260,7 +260,7 @@ span.priority-badge.priority-low {
 }
 .empty-state .icon { font-size: 48px; margin-bottom: 14px; }
 .empty-state p { font-size: 15px; }
-
+ 
 /* ── FORM BOX ── */
 .form-box {
   background: #2A1114;
@@ -307,7 +307,7 @@ span.priority-badge.priority-low {
   transition: opacity 0.2s, transform 0.1s;
 }
 .form-box button:hover { opacity: 0.92; transform: translateY(-1px); }
-
+ 
 /* ── DATE PICKER ── */
 .form-box input[type="date"] {
   width: 100%;
@@ -347,7 +347,7 @@ span.priority-badge.priority-low {
   margin-top: 5px;
   display: block;
 }
-
+ 
 /* ── CHECKBOX GROUP ── */
 .checkbox-group {
   display: flex; flex-wrap: wrap; gap: 10px; margin-top: 8px;
@@ -369,7 +369,7 @@ span.priority-badge.priority-low {
   color: #f0e8e8;
 }
 .check-label input[type="checkbox"] { accent-color: #963E48; }
-
+ 
 /* ── TABLES ── */
 .manage-table {
   width: 100%; border-collapse: collapse;
@@ -394,7 +394,7 @@ span.priority-badge.priority-low {
 .manage-table tr:hover td {
   background: rgba(198,116,126,0.05);
 }
-
+ 
 /* ── ACTION BUTTONS ── */
 .btn-edit {
   background: rgba(150,62,72,0.15);
@@ -405,7 +405,7 @@ span.priority-badge.priority-low {
   margin-right: 6px; transition: all 0.2s;
 }
 .btn-edit:hover { background: rgba(150,62,72,0.28); }
-
+ 
 .btn-warn {
   background: rgba(114,47,55,0.15);
   color: #963E48;
@@ -415,7 +415,7 @@ span.priority-badge.priority-low {
   margin-right: 6px; transition: all 0.2s;
 }
 .btn-warn:hover { background: rgba(114,47,55,0.3); }
-
+ 
 .btn-danger {
   background: rgba(198,116,126,0.12);
   color: #C6747E;
@@ -425,7 +425,7 @@ span.priority-badge.priority-low {
   transition: all 0.2s;
 }
 .btn-danger:hover { background: rgba(198,116,126,0.25); }
-
+ 
 /* ── PROGRESS BAR ── */
 .progress-bar {
   background: #060203;
@@ -439,7 +439,7 @@ span.priority-badge.priority-low {
   height: 100%; border-radius: 20px;
   transition: width 0.5s ease;
 }
-
+ 
 /* ── MESSAGES ── */
 .success {
   background: rgba(114,47,55,0.15);
@@ -457,7 +457,7 @@ span.priority-badge.priority-low {
   margin-bottom: 18px;
   font-size: 14px; font-weight: 500;
 }
-
+ 
 /* ── STATS CARDS ── */
 .stats-row {
   display: flex; gap: 16px; margin-bottom: 28px;
@@ -480,7 +480,7 @@ span.priority-badge.priority-low {
   margin-top: 4px; font-weight: 600;
   text-transform: uppercase; letter-spacing: 0.5px;
 }
-
+ 
 /* ── CATEGORY FILTER BUTTONS ── */
 .cat-btn {
   padding: 7px 16px;
@@ -504,7 +504,7 @@ span.priority-badge.priority-low {
   border-color: #963E48 !important;
   color: #f0e8e8 !important;
 }
-
+ 
 /* ── UNREAD BADGE ── */
 .unread-badge {
   background: #963E48;
@@ -521,7 +521,7 @@ span.priority-badge.priority-low {
   0%, 100% { opacity: 1; }
   50%       { opacity: 0.6; }
 }
-
+ 
 /* ── FILTER BUTTONS (audit page) ── */
 .filter-btn {
   padding: 7px 18px;
@@ -541,7 +541,7 @@ span.priority-badge.priority-low {
   border-color: #963E48;
 }
 .audit-row.hidden { display: none; }
-
+ 
 /* ── SCROLLBAR ── */
 ::-webkit-scrollbar { width: 6px; }
 ::-webkit-scrollbar-track { background: #060203; }
